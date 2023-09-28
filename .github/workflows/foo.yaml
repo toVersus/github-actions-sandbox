@@ -1,0 +1,11 @@
+name: foo
+
+on:
+  push:
+    if: true
+
+jobs:
+  foo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'foo'
